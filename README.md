@@ -9,6 +9,7 @@
 [![Profile views](https://komarev.com/ghpvc/?username=fitpros&label=Profile%20Views&color=0891b2&style=for-the-badge)](https://github.com/fitpros)
 [![Followers](https://img.shields.io/github/followers/fitpros?style=for-the-badge&logo=github&label=Followers)](https://github.com/fitpros?tab=followers)
 [![Repositories](https://img.shields.io/badge/Explore-Projects-1565C0?style=for-the-badge&logo=github)](https://github.com/fitpros?tab=repositories)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect%20with%20Me-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/muhammad-imran-162467105/)
 
 <img src="assets/animated-substation-132kv.svg" width="100%" alt="Animated 132 kV incoming transmission line, substation busbar, 132/33 kV transformer and 33 kV feeders with electric power flow" />
 
@@ -160,6 +161,7 @@ I'm open to conversations about **electrical power systems, relay protection, in
 <div align="center">
 
 [![GitHub](https://img.shields.io/badge/GitHub-Explore%20My%20Work-181717?style=for-the-badge&logo=github)](https://github.com/fitpros)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Muhammad%20Imran-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/muhammad-imran-162467105/)
 [![Projects](https://img.shields.io/badge/Repositories-View%20Projects-0284C7?style=for-the-badge&logo=github)](https://github.com/fitpros?tab=repositories)
 
 **⚡ Electrical Engineering × 🤖 AI Automation × 💻 Software Development**
