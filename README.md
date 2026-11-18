@@ -30,7 +30,7 @@ Alongside electrical engineering, I develop and explore **software products, AI 
 - 🌐 **Networking:** CCNA studies, Cisco Packet Tracer and practical network fundamentals
 - 🤖 **AI automation:** Local LLMs, Ollama, n8n, Python, agent workflows and Docker
 - 💻 **Software:** Python, TypeScript, JavaScript, React, Next.js, FastAPI, PostgreSQL, Git & Linux
-- 🎓 **Education:** DAE Electrical and BS Computer Science
+- 🎓 **Education:** Electrical and BS Computer Science Engineer
 - 📍 **Location:** Oman | Originally from Pakistan
 
 > **From high-voltage power systems to intelligent software — designing practical solutions for real-world challenges.**
