@@ -1,0 +1,121 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="435" viewBox="0 0 1200 435" role="img" aria-labelledby="title desc">
+  <title id="title">Muhammad Imran — animated 132 kV substation banner</title>
+  <desc id="desc">Stylized animated high-voltage substation: a 132 kV incoming transmission line, busbar, power transformer and 33 kV outgoing feeders, with moving cyan electricity pulses.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#070c19"/><stop offset=".55" stop-color="#0b1930"/><stop offset="1" stop-color="#063b48"/></linearGradient>
+    <linearGradient id="cyan" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#60a5fa"/><stop offset=".6" stop-color="#22d3ee"/><stop offset="1" stop-color="#2dd4bf"/></linearGradient>
+    <linearGradient id="steel" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#8eaec7"/><stop offset="1" stop-color="#355875"/></linearGradient>
+    <linearGradient id="tank" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#316480"/><stop offset="1" stop-color="#0e273b"/></linearGradient>
+    <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse"><path d="M30 0H0V30" fill="none" stroke="#77c9e0" opacity=".065"/></pattern>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="5" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <filter id="soft"><feGaussianBlur stdDeviation="12"/></filter>
+  </defs>
+  <rect width="1200" height="435" rx="20" fill="url(#bg)"/>
+  <rect width="1200" height="435" rx="20" fill="url(#grid)"/>
+  <circle cx="1093" cy="40" r="105" fill="#0ca8aa" opacity=".08" filter="url(#soft)"/>
+  <circle cx="95" cy="385" r="120" fill="#2563eb" opacity=".1" filter="url(#soft)"/>
+  <g fill="#9bd8e9" opacity=".5"><circle cx="70" cy="49" r="1.7"/><circle cx="263" cy="29" r="1"/><circle cx="1060" cy="115" r="1.3"/><circle cx="978" cy="28" r="1"/><circle cx="1130" cy="125" r="1.8"/></g>
+
+  <g text-anchor="middle" font-family="Segoe UI,Arial,sans-serif">
+    <text x="600" y="67" font-size="45" font-weight="800" letter-spacing="4" fill="url(#cyan)" filter="url(#glow)">MUHAMMAD IMRAN
+      <animate attributeName="opacity" values=".72;1;.72" dur="4s" repeatCount="indefinite"/>
+    </text>
+    <text x="600" y="95" fill="#d3e7f5" font-size="17" letter-spacing="1.4">ELECTRICAL ENGINEERING  •  AI AUTOMATION  •  SOFTWARE DEVELOPMENT</text>
+  </g>
+  <path d="M230 110H970" stroke="url(#cyan)" stroke-width="2" stroke-linecap="round" opacity=".85"/>
+  <circle cx="600" cy="110" r="3" fill="#67e8f9"><animate attributeName="r" values="2;5;2" dur="2.5s" repeatCount="indefinite"/></circle>
+
+  <!-- Ground plane and yard fence -->
+  <path d="M35 352H1165" stroke="#7dabbf" stroke-width="2" opacity=".55"/>
+  <path d="M45 365H1155" stroke="#42687b" stroke-width="1" opacity=".45"/>
+  <g stroke="#769db4" stroke-width="1" opacity=".5">
+    <path d="M180 351V372M210 351V372M240 351V372M270 351V372M300 351V372M330 351V372M360 351V372M390 351V372M420 351V372M450 351V372M480 351V372M510 351V372M540 351V372M570 351V372M600 351V372M630 351V372M660 351V372M690 351V372M720 351V372M750 351V372M780 351V372M810 351V372M840 351V372M870 351V372M900 351V372M930 351V372M960 351V372M990 351V372M1020 351V372"/>
+  </g>
+
+  <!-- Transmission tower -->
+  <g transform="translate(93 151)" fill="none" stroke="url(#steel)" stroke-width="3" stroke-linejoin="round">
+    <path d="M-16 200 L0 5 L16 200 M0 5L-16 200M0 5L16 200 M-16 200H16"/>
+    <path d="M-44 45H44L24 59H-24Z M-39 93H39L21 107H-21Z M-34 140H34L18 153H-18Z"/>
+    <path d="M-9 28H9M-11 60H11M-13 95H13M-15 130H15M-17 164H17M-6 165L15 130M6 165L-15 130 M-14 194L15 164M14 194L-15 164"/>
+  </g>
+  <g stroke="#d6e9f7" stroke-width="2" opacity=".85">
+    <path d="M51 198C120 206 169 202 258 198" fill="none"/>
+    <path d="M57 247C120 253 170 249 258 245" fill="none"/>
+    <path d="M64 292C124 297 170 294 258 292" fill="none"/>
+  </g>
+  <g fill="#91f3fd"><circle cx="50" cy="198" r="3"/><circle cx="57" cy="247" r="3"/><circle cx="64" cy="292" r="3"/></g>
+
+  <!-- Substation switchyard steel gantries -->
+  <g fill="none" stroke="#789bb2" stroke-width="4" stroke-linejoin="round">
+    <path d="M270 340V165M430 340V165M252 165H448L437 176H263Z"/>
+    <path d="M492 340V165M652 340V165M474 165H670L659 176H485Z"/>
+    <path d="M720 340V190M818 340V190M704 190H834"/>
+  </g>
+  <g stroke="#96bbd2" stroke-width="2"><path d="M270 180L430 310M430 180L270 310M492 180L652 310M652 180L492 310" opacity=".12"/></g>
+
+  <!-- Live schematic bus and apparatus: stylized, not an operational single-line diagram -->
+  <g fill="none" stroke="#4d7a97" stroke-width="4" stroke-linecap="round">
+    <path d="M259 217H652"/>
+    <path d="M348 217V262M575 217V262"/>
+    <path d="M352 260L364 244M574 260L586 244" stroke="#bedbec" stroke-width="4"/>
+    <path d="M364 244V289M586 244V289" stroke-width="3"/>
+    <path d="M356 289H374M578 289H596" stroke="#cbd5e1"/>
+  </g>
+  <path d="M258 217H653" stroke="#22d3ee" stroke-width="3" stroke-dasharray="14 13" opacity=".85" filter="url(#glow)">
+    <animate attributeName="stroke-dashoffset" from="54" to="0" dur="1.6s" repeatCount="indefinite"/>
+  </path>
+  <g fill="#a7f3d0">
+    <circle cx="348" cy="217" r="5"><animate attributeName="opacity" values=".4;1;.4" dur="2s" repeatCount="indefinite"/></circle>
+    <circle cx="575" cy="217" r="5"><animate attributeName="opacity" values="1;.35;1" dur="2.6s" repeatCount="indefinite"/></circle>
+  </g>
+
+  <!-- Transformer body and bushings -->
+  <g transform="translate(728 236)">
+    <rect x="0" y="31" width="129" height="76" rx="9" fill="url(#tank)" stroke="#76d9ed" stroke-width="2"/>
+    <rect x="13" y="44" width="16" height="52" rx="3" fill="#234c63"/><rect x="36" y="44" width="16" height="52" rx="3" fill="#234c63"/>
+    <rect x="76" y="44" width="16" height="52" rx="3" fill="#234c63"/><rect x="99" y="44" width="16" height="52" rx="3" fill="#234c63"/>
+    <path d="M26 31V-11M65 31V-11M104 31V-11" stroke="#9de9ff" stroke-width="4"/>
+    <path d="M17 4H35M17 12H35M17 20H35M56 4H74M56 12H74M56 20H74M95 4H113M95 12H113M95 20H113" stroke="#aac9df" stroke-width="3"/>
+    <rect x="32" y="61" width="66" height="17" rx="4" fill="#0b2537" stroke="#5799b7"/>
+    <text x="65" y="74" font-family="Segoe UI,Arial,sans-serif" text-anchor="middle" font-size="11" fill="#67e8f9" font-weight="700">132/33 kV</text>
+    <circle cx="121" cy="37" r="4" fill="#36e7f3"><animate attributeName="opacity" values=".3;1;.3" dur="1.7s" repeatCount="indefinite"/></circle>
+  </g>
+  <path d="M652 217H754V225" fill="none" stroke="#23d4e8" stroke-width="3" stroke-dasharray="13 10">
+    <animate attributeName="stroke-dashoffset" from="23" to="0" dur="1.2s" repeatCount="indefinite"/>
+  </path>
+
+  <!-- 33 kV side to feeders -->
+  <path d="M857 303H1040M910 303V278M970 303V278M1033 303V278" stroke="#22d3ee" stroke-width="3" fill="none" stroke-dasharray="10 8">
+    <animate attributeName="stroke-dashoffset" from="36" to="0" dur="1.6s" repeatCount="indefinite"/>
+  </path>
+  <g stroke="#c2def2" stroke-width="3" fill="none">
+    <path d="M897 272H923M957 272H983M1020 272H1046M910 272L925 260M970 272L985 260M1033 272L1048 260"/>
+  </g>
+  <g fill="#2dd4bf"><circle cx="910" cy="303" r="5"/><circle cx="970" cy="303" r="5"/><circle cx="1033" cy="303" r="5"/></g>
+  <path d="M1040 303H1129" fill="none" stroke="#8ac0d4" stroke-width="2"/>
+  <path d="M1129 303V340" stroke="#8ac0d4" stroke-width="3"/>
+
+  <!-- SCADA control cabinet -->
+  <g transform="translate(1090 185)">
+    <rect x="0" y="0" width="63" height="97" rx="5" fill="#163c54" stroke="#4dcfe3" stroke-width="2"/>
+    <rect x="9" y="11" width="45" height="33" rx="2" fill="#0c1a2a" stroke="#388eab"/>
+    <path d="M14 31L22 24L31 29L39 18L49 21" fill="none" stroke="#40e0d0" stroke-width="2"/>
+    <circle cx="18" cy="57" r="3" fill="#5eead4"><animate attributeName="opacity" values=".3;1;.3" dur="1.8s" repeatCount="indefinite"/></circle>
+    <circle cx="30" cy="57" r="3" fill="#fbbf24"/>
+    <path d="M11 72H52M11 80H52" stroke="#5b8ba2" stroke-width="2"/>
+  </g>
+
+  <!-- Traveling electricity particles -->
+  <circle r="4" fill="#67e8f9" filter="url(#glow)"><animateMotion path="M 90 198 L 258 198 L 258 217 L 652 217 L 754 217" dur="5s" repeatCount="indefinite"/></circle>
+  <circle r="3" fill="#5eead4" filter="url(#glow)"><animateMotion path="M 857 303 L 1129 303" begin="0.5s" dur="2.4s" repeatCount="indefinite"/></circle>
+  <circle r="3" fill="#5eead4" filter="url(#glow)"><animateMotion path="M 857 303 L 1129 303" begin="1.7s" dur="2.4s" repeatCount="indefinite"/></circle>
+
+  <g font-family="Segoe UI,Arial,sans-serif" font-weight="700" font-size="11" letter-spacing="1">
+    <text x="37" y="388" fill="#81c8e6">132 kV INCOMING</text>
+    <text x="348" y="387" text-anchor="middle" fill="#b5d9ee">SWITCHYARD &amp; BUSBAR</text>
+    <text x="792" y="387" text-anchor="middle" fill="#b5d9ee">POWER TRANSFORMER</text>
+    <text x="982" y="387" text-anchor="middle" fill="#7ee4d7">33 kV FEEDERS</text>
+    <text x="1122" y="294" text-anchor="middle" fill="#7ee4d7" font-size="10">SCADA</text>
+  </g>
+  <text x="600" y="414" text-anchor="middle" fill="#7597ad" font-size="11" font-family="Segoe UI,Arial,sans-serif" letter-spacing="1.1">POWER SYSTEMS  /  DIGITAL ENGINEERING  /  INTELLIGENT AUTOMATION</text>
+</svg>
